@@ -23,7 +23,7 @@ MIT licensed, source code: https://github.com/indusy55/io.github.indusy55.featur
 ## Usage
 
 1. Install the APK and enable the module in your Xposed manager.
-2. Add the target apps to the module scope. The baseline scope contains only the module itself; other apps can be added from the module UI or the framework manager.
+2. Add the target apps to the module scope. No scope is predefined; apps can be added from the module UI or the framework manager.
 3. Open Feature Manager, then either configure individual features under **Apps**, or apply a template under **Templates** (applying a template = patch).
 4. Force-stop and reopen the target app. When the target process loads the rules, the home screen shows **已生效** ("loaded").
 
